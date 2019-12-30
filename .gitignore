@@ -1,0 +1,56 @@
+*.class
+.DS_Store
+application.pid
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.classpath
+.project
+target
+.settings
+
+# Idea
+.idea/*
+.idea/workspace.xml
+*.iml
+
+# git
+*.orig
+.travis.yml
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+apollo/apollo-domain/src/test/java/com/yofish/apollo/repository/
+ata-ops-upms-refactor/src/main/java/jpa/status/
+ata-ops-upms-refactor/src/main/java/jpa/strategy/session/
+upms-common/src/main/resources/
+upms-common/src/test/
+upms-domain/upms-domain-api/src/main/resources/
+upms-domain/upms-domain-api/src/test/
+yyconfig-main/src/test/
+upms-permissonFramework/upms-permissonFramework-shiro/src/main/resources/
+upms-permissonFramework/upms-permissonFramework-shiro/src/test/
+/upms.iml
+
+# dependencies
+/node_modules
+/npm-debug.log*
+/yarn-error.log
+/yarn.lock
+/package-lock.json
+
+# misc
+.DS_Store
+
+# umi
+.umi
+.umi-production
